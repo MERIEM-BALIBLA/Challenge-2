@@ -435,10 +435,12 @@ a:focus {
 
 .about_section .img-box img {
   width: 100%;
+  margin-top: 20px;
 }
 
 .professional_section {
   background-color: #d1e3ff;
+  margin-bottom: 40px;
 }
 
 .professional_section .row {
@@ -571,6 +573,10 @@ a:focus {
   color: #0355cc;
 }
 
+.client_section {
+  margin-bottom: 40px;
+}
+
 .client_section .heading_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -653,7 +659,7 @@ a:focus {
   margin-bottom: 30px;
 }
 
-.contact_section input {
+.contact_section input, .contact_section select {
   width: 100%;
   border: none;
   height: 50px;
@@ -666,19 +672,20 @@ a:focus {
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
-.contact_section input::-webkit-input-placeholder {
+
+.contact_section input::-webkit-input-placeholder, .contact_section select {
   color: #737272;
 }
 
-.contact_section input:-ms-input-placeholder {
+.contact_section input:-ms-input-placeholder, .contact_section select {
   color: #737272;
 }
 
-.contact_section input::-ms-input-placeholder {
+.contact_section input::-ms-input-placeholder, .contact_section select {
   color: #737272;
 }
 
-.contact_section input::placeholder {
+.contact_section input::placeholder, .contact_section select {
   color: #737272;
 }
 
